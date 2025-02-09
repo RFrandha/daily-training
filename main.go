@@ -1,7 +1,7 @@
 package main
 
 import (
-	"main/leetcode"
+	"daily-training/leetcode"
 )
 
 func main() {
