@@ -1,10 +1,12 @@
 package main
 
 import (
-	"daily-training/leetcode"
+	"daily-training/hackerrank"
 )
 
 func main() {
 	// hackerrank.HRLargestRect()
-	leetcode.L2364()
+	// leetcode.L2364()
+	// leetcode.L3174()
+	hackerrank.HRTructTour()
 }
