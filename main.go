@@ -10,5 +10,6 @@ func main() {
 	// leetcode.L3174()
 	//hackerrank.HRTructTour()
 	//leetcode.L1910()
-	leetcode.L2342()
+	// leetcode.L2342()
+	leetcode.L2()
 }
