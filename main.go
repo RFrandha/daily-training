@@ -12,5 +12,6 @@ func main() {
 	//leetcode.L1910()
 	// leetcode.L2342()
 	//leetcode.L2()
-	leetcode.L3066()
+	// leetcode.L3066()
+	leetcode.L1352()
 }
