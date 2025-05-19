@@ -1,0 +1,60 @@
+An array A consisting of N integers is given. A tricoloring of this array is a string consisting of N
+characters such that each character is either 'R' (meaning red), 'G' (green) or 'B' (blue). The K-th
+character of the string (where 0 s K < N) denotes the color of K-th element of the array. A
+tricoloring is stable if the sum of red elements is equal to the sum of green elements and to the
+sum of blue elements. A tricoloring does not necessarily use all three colors. The sum of
+elements of a color that is not used is assumed to be 0.
+
+
+For example, consider array A such that
+
+
+A[0] = 3
+A[3] = 5
+
+
+A[1] = 7
+A[4] =
+
+
+A[2] = 2
+
+
+The string "RRGG " is an example tricoloring of this array. It is not stable, because A[0] + A[1] = 10,
+A[2] + A[3] = 7, A[4] = 4 and 10 *: 7 * 4. On the other hand, tricoloring "RGBBR" is stable, because
+A[0] + A[4] = 7; A[1] = 7 and A[2]+ A[3] = 7.
+Write a function
+
+
+func Solution(A []int) string
+
+
+that, given an array A consisting of N integers, returns any stable tricoloring of this array. The
+function should return the string "impossible" if no stable tricoloring exists.
+For example, given array A such that
+A[0] = 3
+A[1] =7
+A[2]= 2
+A[3]
+A[4]
+a
+5
+= 4
+
+
+the function may return "RGBBR", as explained above. Given array A such that
+A[0]=3
+A[1]= 6
+A[2]
+9
+
+
+All changes saved
+
+
+the function should return "impossible"
+Write an efficient algorithm for the following assumptlons:
+
+
+• N is an integer within the range [0..18)
+• ach element of array A is an integer within the range [-100,000,000..100,000,000).
