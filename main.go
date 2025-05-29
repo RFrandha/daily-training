@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	leetcode.LC40()
+	leetcode.LC41()
 }
