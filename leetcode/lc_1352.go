@@ -3,7 +3,7 @@ package leetcode
 import "log"
 
 func L1352() {
-	obj := Constructor()
+	obj := ConstructorPoN()
 	obj.Add(3)
 	obj.Add(0)
 	obj.Add(2)
@@ -22,7 +22,7 @@ func L1352() {
 // 	lastIdx int
 // }
 
-// func Constructor() ProductOfNumbers {
+// func ConstructorPoN() ProductOfNumbers {
 //     return ProductOfNumbers{
 // 		nums:    make([]int, 40000),
 // 		lastIdx: 0,
@@ -49,7 +49,7 @@ type ProductOfNumbers struct {
 	nums []int
 }
 
-func Constructor() ProductOfNumbers {
+func ConstructorPoN() ProductOfNumbers {
 	return ProductOfNumbers{
 		nums: []int{1},
 	}
